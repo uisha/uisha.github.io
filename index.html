@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Joshua's Portfolio Website</title>
+
+      
+      <link rel="stylesheet" href="style.css" />
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Fira Code" rel="stylesheet">
+      
+      <script src="functions.js"></script>
+      <script src="https://kit.fontawesome.com/75fc16fe9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      
+      <nav>
+            <div id="nav-logo-section" class="nav-section">
+                  <a href="#">
+                        <img class="logo" src="assets/coffee_logo.png" alt="logo">
+                  </a>
+            </div>
+            <div id="nav-link-section" class="nav-section">
+                  <a href="#about">about</a>
+                  <a href="#experience">experience</a>
+                  <a href="#journey">journey</a>
+            </div>
+            <div id="nav-social-section" class="nav-section">
+                  <a href="#">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/joshua-tipon-b65792215">
+                        <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/uisha">
+                        <i class="fa-brands fa-github"></i>
+                  </a>
+            </div>
+            <div id="nav-contact-section" class="nav-section">
+                  <a href="#">contact me</a>
+            </div>
+      </nav>
+      
+      <main>
+            <div class="carousel" id="home">
+                  <article data-index="0" data-status="active">
+                        <div class="article-image-section article-section"></div>
+                        <div class="article-description-section article-section">
+                              <p>
+                                    name: joshua emmanuel g. tipon<br>
+                                    age: 20
+                              </p>
+                        </div>
+                        <div class="article-title-section article-section">
+                              <h2>about me</h2>
+                              <a href="#about">
+                                    <i class="fa-solid fa-plus"></i>
+                              </a>
+                        </div>
+                        <div class="article-nav-section article-section">
+                              <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                              </button>
+                              <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                              </button>
+                        </div>
+                  </article>
+
+                  <article data-index="1" data-status="inactive">
+                        <div class="article-image-section article-section"></div>
+                        <div class="article-description-section article-section">
+                              <p>
+                                    name: joshua emmanuel g. tipon<br>
+                                    age: 20
+                              </p>
+                        </div>
+                        <div class="article-title-section article-section">
+                              <h2>experience</h2>
+                              <a href="#experience">
+                                    <i class="fa-solid fa-plus"></i>
+                              </a>
+                        </div>
+                        <div class="article-nav-section article-section">
+                              <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                              </button>
+                              <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                              </button>
+                        </div>
+                  </article>
+
+                  <article data-index="2" data-status="inactive">
+                        <div class="article-image-section article-section"></div>
+                        <div class="article-description-section article-section">
+                              <p>
+                                    name: joshua emmanuel g. tipon<br>
+                                    age: 20
+                              </p>
+                        </div>
+                        <div class="article-title-section article-section">
+                              <h2>journey</h2>
+                              <a href="#journey">
+                                    <i class="fa-solid fa-plus"></i>
+                              </a>
+                        </div>
+                        <div class="article-nav-section article-section">
+                              <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                              </button>
+                              <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                              </button>
+                        </div>
+                  </article>
+            </div>
+
+            <div class="sections" id="about">
+                  <h1>.about me</h1>
+                  <div class="pfp"></div>
+                  <hr>
+                  <p>
+                        Hi, my name is Joshua Tipon and I'm currently taking my 2nd year Bachelor of
+                        Computer Science - Major in Software Technology in 
+                        De La Salle University - Laguna Campus. I am interested in Health & Fitness, A.I., 
+                        Prompt Engineering, Data Science, UI/UX, Agriculture,
+                        and making my life easier through programming. 
+
+                  </p>
+            </div>
+
+            <div class="sections" id="experience">
+                  <h1>.what i know</h1>
+                  <div class="card" id="python">
+                        <h3>.python</h3>
+                        <p>
+                              I am currently taking the Udemy course named "100 Days of Code: 
+                              The Complete Python Pro Bootcamp for 2023" by Dr. Angela
+                              from App Brewery.<br><br>
+
+                              I have also taken the free CS50 course back in 2019 in preperation for
+                              taking my major.<br><br>
+
+                              Because of these, I have been 
+                              practised in the creating python projects and most comfortable using it.
+                        </p>
+                  </div>
+
+                  <div class="card" id="php">
+                        <h3>.php</h3>
+                        <p>
+                              I am also currently taking the PHP course "PHP For Beginners" by Jeffrey Way
+                              from Laracasts. I have just started so I have yet to make a project on this.
+                        </p>
+                  </div>
+
+                  <div class="card" id="others">
+                        <h3>.others</h3>
+                        <p>
+                              I am also studying other languages and upskilling. Thanks to my major, I 
+                              am getting exposed to the different programming languages and principles.<br>
+
+                              <br>Examples of these are:<br>
+                              <ul>
+                                    <li>creating web apps through google apps script</li>
+                                    <li>basic web design</li>
+                                    <li>basic c, java, mysql</li>
+                                    <li>basic arduino</li>
+                                    <li>copywriting</li>
+                              </ul>
+                        </p>
+                  </div>
+            </div>
+            
+            <div class="sections" id="journey">
+                  <h1><u>.my journey<br>so far</u></h1>
+                  <div id="progress-card">
+                        <h3>.python</h3>
+                        <div class="wrap-circles">
+                              <div class="circle per-25">
+                                  <div class="inner">25%</div>
+                              </div>
+                        </div>
+                        <p>
+                              Day 25: Intermediate - Working with CSV Data and the Pandas Library 
+                        </p>
+                        <h3>.laravel</h3>
+                        <div class="wrap-circles">
+                              <div class="circle per-10">
+                                  <div class="inner">10%</div>
+                              </div>
+                        </div>
+                        <p>
+                              Day 21: Database Tables and Indexes
+                        </p>
+
+                        <h3>.laravel</h3>
+                        <div class="wrap-circles">
+                              <div class="circle per-10">
+                                  <div class="inner">10%</div>
+                              </div>
+                        </div>
+                        <p>
+                              Day 21: Database Tables and Indexes
+                        </p>
+                  </div>
+            </div>
+      </main>
+</body>
+</html>
