@@ -398,3 +398,6 @@ main > .sections {
   font-family: 'Montserrat', sans-serif;
 }
 
+#contact > .contact-card > h5 {
+  padding-top: 1.5rem;
+}
