@@ -53,6 +53,7 @@ body {
   overflow-y: scroll; /* Add the ability to scroll */
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -400,4 +401,30 @@ main > .sections {
 
 #contact > .contact-card > h5 {
   padding-top: 1.5rem;
+}
+
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: #011D25;
+}
+
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+  
 }
