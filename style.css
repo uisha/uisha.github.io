@@ -402,3 +402,7 @@ main > .sections {
 #contact > .contact-card > h5 {
   padding-top: 1.5rem;
 }
+
+#contact {
+  box-shadow: 0px -10px 8px;;
+}
