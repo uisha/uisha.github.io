@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, a, p, span, ul {
+h1, h2, h3, h5, a, p, span, ul {
   font-family: 'Fira Code';
   font-weight: 400;
   color: var(--text-color);
@@ -33,6 +33,10 @@ h1 {
 
 h3 {
   font-size: 59px;
+}
+
+h5 {
+  font-size: 26px;
 }
 
 a {
@@ -393,3 +397,4 @@ main > .sections {
   color: var(--text-color);
   font-family: 'Montserrat', sans-serif;
 }
+
