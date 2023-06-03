@@ -181,7 +181,7 @@ main > .carousel > article:nth-child(1) > .article-image-section {
 }
 
 main > .carousel > article:nth-child(2) > .article-image-section {
-  background-image: url("assets/hirst_painting.jpg")
+  background-image: url("assets/hirst_painting.gif")
 }
 
 main > .carousel > article:nth-child(3) > .article-image-section {
