@@ -35,3 +35,20 @@ const handleRightClick = () => {
     activeIndex = nextIndex;
   });
 }
+
+/* Scroll To Top */
+const scrollToTopButton = document.getElementById("scroll-to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 300) {
+    // scrollToTopButton.style.display = "block";
+    scrollToTopButton.classList.add("show");
+  } else {
+    // scrollToTopButton.style.display = "none";
+    scrollToTopButton.classList.remove("show");
+  }
+});
+
+scrollToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
