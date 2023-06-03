@@ -103,6 +103,16 @@ nav > .nav-section {
   gap: 6rem;
 }
 
+#nav-link-section a:hover a{
+  color: var(--highlight-color);
+}
+
+#nav-link-section a:hover {
+  color: var(--text-color);
+}
+
+
+
 #nav-social-section {
   gap: 3rem;
 }
