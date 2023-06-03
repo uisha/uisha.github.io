@@ -203,6 +203,11 @@ main > .carousel > article > .article-description-section > p {
   font-size: 1rem;
 }
 
+main > .carousel > article > .article-description-section > ul {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
 main > .carousel > article > .article-title-section {
   align-items: center; 
   justify-content: space-between;
