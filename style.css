@@ -393,12 +393,12 @@ main > .sections {
   overflow: hidden;
 }
 
-.circle.per-25 {
-  background-image: conic-gradient(#4ED9E5 25%, #3F4849 0);
+.circle.python {
+  background-image: conic-gradient(#4ED9E5 33%, #3F4849 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.circle.per-10 {
+.circle.laravel {
   background-image: conic-gradient(#4ED9E5 10%, #3F4849 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
